@@ -5,7 +5,7 @@ console.log("Grade:senior");
 
 var name ="crismal";
 let school=" julius L. chambers";
-var=grade = "senior";
+var grade = "senior";
 
 document.getElementById("name").innerHTML = "Name:<b>"+name+",</b>";
 document.getElementById("grade").innerHTML = "Name:<b>"+grade+",</b>";
