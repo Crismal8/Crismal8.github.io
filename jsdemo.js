@@ -1,7 +1,7 @@
 console.log("This output is from the external Js file");
 console.log("Name: crismal");
 console.log("school:julius L.chambers");
-console.log("Grade:senior");
+console.log("Grade:Junior");
 
 var name ="crismal";
 let school=" julius L. chambers";
