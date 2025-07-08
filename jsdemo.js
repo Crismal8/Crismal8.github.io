@@ -7,6 +7,6 @@ var name ="crismal";
 let school=" julius L. chambers";
 var grade = "senior";
 
-document.getElementById("name").innerHTML = "Name:<b>"+name+",</b>";
-document.getElementById("grade").innerHTML = "Name:<b>"+grade+",</b>";
-document.getElementById("school").innerHTML = "Name:<b>"+school+",</b>";
+document.getElementById("name").innerHTML = "Name: <b>"+name+"</b>";
+document.getElementById("grade").innerHTML = "Grade: <b>"+grade+"</b>";
+document.getElementById("school").innerHTML = "School: <b>"+school+"</b>";
