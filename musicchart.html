@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <title>Music chart</title>
+    <style>
+      body{
+        background-color:#fcd9fc;
+      }
+    </style>
+     <script src="https://cdn.plot.ly/plotly-3.0.1.min.js" charset="utf-8"></script>
+  </head>
+  
+  <body>
+    <center>
+      <h1>My Favorite lyrics songs:</h1>
+      <div id="plot"></div>
+      <script>
+       let songs =["Cruel Summer","Crazy","Cant't take my eyes off you"]; 
+        let views =[9383367,9874971,4115539];
+        let trace ={
+          x: songs,
+          y: views,
+          type: "bar"
+        };
+        let data =[trace];
+        plotly.newplot("plot",data);
+      </script>
+    </center>
+    
+   <footer>
+      <center>
+        <hr>
+        <p><em>Cris's website &copy;2025</em></p>
+      </center>
+    </footer>
+  </body>
+</html>
